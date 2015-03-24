@@ -18,7 +18,7 @@ public class PrimeFactTest {
 	public void testFor2() {
 		List<Integer> primes = PrimeFact.primeFactorization(2);
 		List<Integer> expected = new ArrayList();
-		expected.add(1);
+		expected.add(2);
 		assertEquals(primes, expected);
 	}
 
