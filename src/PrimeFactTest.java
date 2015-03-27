@@ -41,7 +41,7 @@ public class PrimeFactTest {
 
 	@Test
 	public void testFor6() {
-		List<Integer> primes = PrimeFact.primeFactorization(4);
+		List<Integer> primes = PrimeFact.primeFactorization(6);
 		List<Integer> expected = new ArrayList();
 		expected.add(2);
 		expected.add(3);
