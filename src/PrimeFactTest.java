@@ -60,10 +60,21 @@ public class PrimeFactTest {
 	
 	@Test
 	public void testFor9() {
-		List<Integer> primes = PrimeFact.primeFactorization(6);
+		List<Integer> primes = PrimeFact.primeFactorization(9);
 		List<Integer> expected = new ArrayList();
 		expected.add(3);
 		expected.add(3);
+		assertEquals(primes, expected);
+	}
+	
+	@Test
+	public void testFor325115() {
+		List<Integer> primes = PrimeFact.primeFactorization(325115);
+		List<Integer> expected = new ArrayList();
+		expected.add(5);
+		expected.add(7);
+		expected.add(7);
+		expected.add(1327);
 		assertEquals(primes, expected);
 	}
 }
