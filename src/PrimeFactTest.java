@@ -77,4 +77,22 @@ public class PrimeFactTest {
 		expected.add(1327);
 		assertEquals(primes, expected);
 	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
