@@ -57,4 +57,13 @@ public class PrimeFactTest {
 		expected.add(2);
 		assertEquals(primes, expected);
 	}
+	
+	@Test
+	public void testFor9() {
+		List<Integer> primes = PrimeFact.primeFactorization(6);
+		List<Integer> expected = new ArrayList();
+		expected.add(3);
+		expected.add(3);
+		assertEquals(primes, expected);
+	}
 }
