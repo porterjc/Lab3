@@ -30,7 +30,8 @@ public class PrimeNumberGenerationTest {
 	   public static Collection primes() {
 		return Arrays.asList(new Object[][] {
 			{1, new ArrayList<Integer>()},
-			{2, new ArrayList<Integer>()}
+			{2, new ArrayList<Integer>()},
+			{3, Arrays.asList(2)}
 		});   
 	   }
 	   
