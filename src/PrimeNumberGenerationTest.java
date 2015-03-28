@@ -32,7 +32,8 @@ public class PrimeNumberGenerationTest {
 			{1, new ArrayList<Integer>()},
 			{2, new ArrayList<Integer>()},
 			{3, Arrays.asList(2)},
-			{4, Arrays.asList(2, 3)}
+			{4, Arrays.asList(2, 3)},
+			{9, Arrays.asList(2, 3, 5, 7)}
 		});   
 	   }
 	   
