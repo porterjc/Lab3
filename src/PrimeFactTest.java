@@ -47,4 +47,14 @@ public class PrimeFactTest {
 		expected.add(3);
 		assertEquals(primes, expected);
 	}
+	
+	@Test
+	public void testFor8() {
+		List<Integer> primes = PrimeFact.primeFactorization(8);
+		List<Integer> expected = new ArrayList();
+		expected.add(2);
+		expected.add(2);
+		expected.add(2);
+		assertEquals(primes, expected);
+	}
 }
