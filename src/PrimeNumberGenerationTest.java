@@ -31,7 +31,8 @@ public class PrimeNumberGenerationTest {
 		return Arrays.asList(new Object[][] {
 			{1, new ArrayList<Integer>()},
 			{2, new ArrayList<Integer>()},
-			{3, Arrays.asList(2)}
+			{3, Arrays.asList(2)},
+			{4, Arrays.asList(2, 3)}
 		});   
 	   }
 	   
